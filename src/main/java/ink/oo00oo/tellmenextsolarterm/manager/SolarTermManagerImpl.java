@@ -43,6 +43,7 @@ public class SolarTermManagerImpl implements SolarTermManager {
                 .id(solarTermDO.getId())
                 .name(solarTermDO.getName())
                 .nameEn(solarTermDO.getNameEn())
+                .meaning(solarTermDO.getMeaning())
                 .meteorologicalChanges(solarTermDO.getMeteorologicalChanges())
                 .relatedVerses(solarTermDO.getRelatedVerses())
                 .custom(solarTermDO.getCustom())
